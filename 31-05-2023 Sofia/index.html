@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+        href="https://img.freepik.com/vector-gratis/diseno-etiqueta-calculadora-aislada_1308-60994.jpg?w=2000"
+        type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div id="container">
+        <form action="" name="Calculadora">
+            <input type="textfield" autocomplete="off" value="" name="ans" readonly>
+
+            <div>
+                <input type="button" value="7" class="gray" onclick="document.Calculadora.ans.value+='7'">
+                <input type="button" value="8" class="gray" onclick="document.Calculadora.ans.value+='8'">
+                <input type="button" value="9" class="gray" onclick="document.Calculadora.ans.value+='9'">
+                <input type="button" value="+" class="orange" onclick="document.Calculadora.ans.value+='+'">
+            </div>
+
+            <div>
+                <input type="button" value="4" class="gray" onclick="document.Calculadora.ans.value+='4'">
+                <input type="button" value="5" class="gray" onclick="document.Calculadora.ans.value+='5'">
+                <input type="button" value="6" class="gray" onclick="document.Calculadora.ans.value+='6'">
+                <input type="button" value="*" class="orange" onclick="document.Calculadora.ans.value+='*'">
+            </div>
+
+           <div>
+            <input type="button" value="1" class="gray" onclick="document.Calculadora.ans.value+='4'">
+                <input type="button" value="2" class="gray" onclick="document.Calculadora.ans.value+='5'">
+                <input type="button" value="3" class="gray" onclick="document.Calculadora.ans.value+='6'">
+                <input type="button" value="-" class="orange" onclick="document.Calculadora.ans.value+='-'">
+           </div>
+           
+            <div>
+                <input type="button" value="0" class="gray" onclick="document.Calculadora.ans.value+='0'">
+                <input type="button" value="c" class="gray">
+                <input type="button" value="=" class="orange" onclick="document.Calculadora.ans.value=eval(document.Calculadora.ans.value)">
+                <input type="button" value="/" class="orange" onclick="document.Calculadora.ans.value+='/'">
+            </div>
+
+           
+
+        </form>
+
+</div>
+            
+</body>
+
+</html>
